@@ -14,7 +14,7 @@ const UserCard = ({ user }) => {
           <h3 className="user-email">{user.email}</h3>
           <h3 className="user-phone">{user.phone}</h3>
           <a
-            href={`https://${user.website}`}
+            href={`https://${user.website}`}  
             target="_blank"
             rel="noopener noreferrer"
             className="user-website"
